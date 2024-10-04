@@ -1,54 +1,65 @@
 /**General**/
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.debug{
+.debug {
     border: 1px solid #ff0000;
 }
 
 /**Header**/
 
-.navigation-bar{
-   background-color: #255EE9;
+
+
+.navigation-bar {
+    background-color: #255EE9;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
     border: 1px solid red;
 }
 
-.padding{
+.padding {
     padding: 10px;
 }
 
-li{
+li {
     list-style: none;
     padding: 15px 35px;
     color: white;
 }
 
-button{
-border-radius: 20px;
-border: 0;
-width: 80px;
-height: 40px;
-color: #000000;
-background-color: #ffffff;
+button {
+    border-radius: 20px;
+    border: 0;
+    width: 80px;
+    height: 40px;
+    color: #000000;
+    background-color: #ffffff;
 }
 
-.inner-header{
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 950px;
-    background-image: url('../img/jumbo.png');
+.content {
+    max-width: 60%;
+    margin: 0% auto;
+
 }
 
+section{
+    border: 1px solid rgb(255, 0, 0);
+    max-width: 60%;
+    margin: 0% auto;
+}
 
+main div{
+    border: 1px solid red;
+}
+
+.flex{
+    display: flex;
+}
