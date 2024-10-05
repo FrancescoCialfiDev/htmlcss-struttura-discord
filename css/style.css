@@ -17,7 +17,25 @@
 }
 
 .padding {
-    padding: 15px 0;
+    padding: 10px 0;
+}
+
+
+
+.content {
+    margin: 0 auto;
+}
+
+.margin{
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-bottom: 25px;
+}
+
+.bgcolor-grey{
+background-color: #e6e5e5;
 }
 
 /* Formattazione Testo */
@@ -28,15 +46,26 @@ li {
     color: white;
 }
 
-b{
-    color: white;
+h1{
+    color: rgb(255, 255, 255);
     font-size: 30px;
 }
 
-p{
+section p{
     color: white;
     font-size: 20px;
     word-spacing: 4px;
+    padding-top: 10px;
+}
+
+h2{
+    font-size: 45px;
+    padding-bottom: 27px;
+}
+
+p{
+    line-height: 5px;
+    padding: 20px;
 }
 
 
@@ -50,7 +79,7 @@ p{
     background-image: url('../img/jumbo.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 786px;
+    height: 659px;
     }
 
 /* Bottoni */
@@ -115,6 +144,7 @@ section {
 
 main div {
     border: 1px solid red;
+    margin: 80px 0;
 }
 
 .row {
@@ -130,18 +160,11 @@ main div {
     width: 40%;
 }
 
-.content {
-    margin: 0 auto;
-}
-
-.bord{
-border-bottom: 1px solid grey;
-}
-
 .center{
     text-align: center;
 }
 
-.margin{
-    margin-bottom: 110px;
+
+.text{
+    
 }
