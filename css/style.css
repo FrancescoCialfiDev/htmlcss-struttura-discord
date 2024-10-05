@@ -32,6 +32,8 @@
 
 h1{
     margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
 }
 
 .bgcolor-grey{
@@ -46,10 +48,6 @@ li {
     color: white;
 }
 
-h1{
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-}
 
 section p{
     color: white;
@@ -63,11 +61,16 @@ h2{
     padding-bottom: 27px;
 }
 
-p{
+header p{
     line-height: 5px;
-    padding: 20px;
+    padding: 15px;
 }
 
+
+main p{
+    line-height: 1;
+    font-size: 18px;
+}
 
 /** Inizio Header**/
 
@@ -95,7 +98,7 @@ padding: 8px;
 
 .button{
     text-align: center;
-    padding: 0 10px;
+    padding: 10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,13 +161,9 @@ main div {
 
 .place {
     width: 40%;
+    height: 446px;
 }
 
 .center{
     text-align: center;
-}
-
-
-.text{
-    
 }
