@@ -10,36 +10,96 @@
     border: 1px solid #ff0000;
 }
 
-/**Header**/
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.padding {
+    padding: 15px 0;
+}
+
+/* Formattazione Testo */
+
+li {
+    list-style: none;
+    padding: 15px 20px;
+    color: white;
+}
+
+b{
+    color: white;
+    font-size: 30px;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    word-spacing: 4px;
+}
 
 
+/** Inizio Header**/
 
 .navigation-bar {
     background-color: #255EE9;
 }
 
-.flex {
+.bgimage{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 786px;
+    }
+
+/* Bottoni */
+
+.nav-button{
+background-color: white;
+font-size: 15px;
+border: 0;
+width: 70px;
+border-radius: 30px;
+padding: 8px;
+}
+
+.button{
+    text-align: center;
+    padding: 0 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 
 
-li {
-    list-style: none;
-    padding: 15px 35px;
+.button1{
+    border-radius: 50px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 0;
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.button2{
+    border-radius: 50px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 0;
+    width: 230px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #23272A;
     color: white;
 }
 
-button {
-    border-radius: 20px;
-    border: 0;
-    width: 80px;
-    height: 40px;
-    color: #000000;
-    background-color: #ffffff;
+.gap{
+gap: 15px;
 }
+
+/* Fine Header */
 
 .content {
     max-width: 60%;
@@ -47,28 +107,14 @@ button {
 
 }
 
-.padding {
-    padding: 10px 0;
-}
 
 section {
-    border: 1px solid rgb(255, 0, 0);
     max-width: 60%;
     margin: 0% auto;
 }
 
 main div {
     border: 1px solid red;
-}
-
-section div {
-    border: 1px solid red;
-
-}
-
-.flex {
-    display: flex;
-    flex-direction: row;
 }
 
 .row {
@@ -90,4 +136,12 @@ section div {
 
 .bord{
 border-bottom: 1px solid grey;
+}
+
+.center{
+    text-align: center;
+}
+
+.margin{
+    margin-bottom: 110px;
 }
