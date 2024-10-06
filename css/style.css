@@ -257,3 +257,8 @@ border-radius: 50px;
     justify-content: space-between;
     padding: 25px;
 }
+
+details{
+    display: inline;
+}
+
