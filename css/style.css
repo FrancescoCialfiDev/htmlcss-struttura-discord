@@ -16,10 +16,6 @@
     align-items: center;
 }
 
-.padding {
-    padding: 10px 0;
-}
-
 .vflex{
     display: flex;
     flex-direction: column;
@@ -28,14 +24,21 @@
     text-align: center;
 }
 
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+}
 
-
-.content {
-    margin: 0 auto;
+.padding {
+    padding: 10px 0;
 }
 
 .margin{
     margin-bottom: 20px;
+}
+
+.content {
+    margin: 0 auto;
 }
 
 h1{
@@ -142,6 +145,7 @@ padding: 8px;
     border: 0px;
     font-size: 15px;
     color: white;
+    margin-top: 32px;
 }
 
 .gap{
@@ -149,6 +153,9 @@ gap: 15px;
 }
 
 /* Fine Header */
+
+
+/* Main */
 
 .content {
     max-width: 60%;
@@ -167,13 +174,8 @@ section {
     margin: 80px 0;
 }
 
-.row {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
 .image {
-    width: 60%;
+    width: 70%;
 }
 
 .image-star{
@@ -193,15 +195,65 @@ section {
 font-size: 20px;
 }
 
-footer{
-
-        background-color: #23272A;
-}
-
 main{
     margin-top: 100px;
 }
 
 .end-padding{
     padding-bottom: 100px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #23272A;
+    padding: 15px;
+}
+
+ .contenitore{
+    width: 70%;
+    margin: 0 auto;
+ }
+ 
+ /* Flag */
+
+ footer div .contenitore{
+    height: 100px;
+ }
+
+ footer li{
+    color: #ffffff;
+ }
+
+.footer-flex{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+footer li:first-child{
+    color: #7289DA;
+}
+
+footer span{
+    font-size: 20px;
+}
+
+footer button{
+border-radius: 50px;
+    background-color: #7289DA;
+    border: 0px;
+    font-size: 15px;
+    color: white;
+    width: 80px;
+}
+
+.bottom-border{
+    border-bottom: 1px solid #F6F6F6;
+}
+
+#end-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
 }
